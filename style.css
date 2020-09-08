@@ -1,0 +1,115 @@
+/* General settings*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url('img/background.jpg');
+    background-color: rgba(0,0,0,.2);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 200px 50px 100px;
+}
+
+header, main section, footer {
+    margin: 10px 0;
+}
+
+
+/* Header */
+
+header img {
+    height: 100px;
+    vertical-align: middle;
+}
+
+header div {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 100px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+/* Main */
+
+main section:first-child input {
+    width: 200px;
+    height: 25px;
+    outline: none;
+    font-size: 16px;
+    padding: 1px 5px;
+    border: none;
+}
+
+main section button {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px;
+    outline: none;
+}
+
+main section button:hover {
+    background-color: black;
+    color: white;
+}
+
+main section h2 {
+    color: white;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+main section h2 span {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.unread {
+    background-color: lightgrey;
+}
+
+.read {
+    background-color: white;
+}
+
+.read, .unread {
+    margin: 3px 0;
+    height: 25px;
+    padding: 0 5px;
+}
+
+.read span, .unread span {
+    line-height: 25px;
+}
+
+.read span:nth-child(4), .unread span:nth-child(4) {
+    color: darkgrey;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer span:first-child {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+footer span:nth-child(2) {
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+}
